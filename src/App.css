@@ -13,3 +13,38 @@ a {
   color: #333;
   text-decoration: none;
 }
+
+.section {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sidebar{
+  width: 20%;
+  height: 600px;
+  padding-top: 40px;
+  background: #ededed;
+}
+.middle{
+  width: 80%;
+  padding-top: 20px;
+  padding-left: 100px;
+  height: 600px;
+  cursor: pointer;
+}
+
+.last{
+  width: 20%;
+  padding-top: 20px;
+  height: 600px;
+  cursor: pointer;
+  background: gray
+  
+}
+
+.lead {
+  padding: 20px;
+  margin-top: 3px;
+  
+}
